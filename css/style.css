@@ -1,0 +1,25 @@
+.brown {
+    color: rgb(95, 47, 9);
+    text-decoration: none;
+}
+
+.brown_underline{
+    text-decoration: underline !important;
+}
+
+.bg-brown {
+    background-color: rgb(45, 28, 14);
+}
+
+.carousel-item {
+    max-height: 90vh;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+}
