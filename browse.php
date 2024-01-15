@@ -50,7 +50,7 @@ $incart = false;
             </div>
         </div>
 
-        <div id="main_products_div" class="card-group row row-cols-2 row-cols-md-2 row-cols-lg-4 mb-5 mx-1">
+        <div id="main_products_div" class="card-group row row-cols-1 row-cols-md-2 row-cols-lg-4 mb-5 mx-1">
             <?php while ($row = mysqli_fetch_assoc($res)) {
 
                 $bq = "select * from businesses where b_id = (" . $row['b_id'] . ");";
@@ -82,10 +82,10 @@ $incart = false;
                                             <?php echo $brow['b_name'] ?>
                                         </small></a>
                                 </div>
-                                <p class="card-text">
+                                <p class="card-text brown">
                                     <?php echo substr($row['p_desc'], 0, 50) . '...' ?>
                                 </p>
-                                <h2>₹
+                                <h2 class="brown" >₹
                                     <?php echo $row['p_price'] ?>
                                 </h2>
                             </div>

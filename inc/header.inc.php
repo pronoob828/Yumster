@@ -64,11 +64,6 @@
                                     </strong></span></a>
                             <ul class="dropdown-menu dropdown-menu-end bg-warning" id="dropmenu"
                                 aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item brown bold" href="profile.php">Profile</a>
-                                </li>
-                                <li>
-                                    <hr>
-                                </li>
                                 <li>
                                     <a class="dropdown-item brown bold" href="logout.php">Logout</a>
                                 </li>

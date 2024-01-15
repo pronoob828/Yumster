@@ -105,7 +105,7 @@ unset($pics[count($pics) - 1]);
         </h2>
         <?php if (!$empty) { ?>
 
-            <div class="card-group row row-cols-2 row-cols-md-2 row-cols-lg-4 mb-5 mx-1">
+            <div class="card-group row row-cols-1 row-cols-md-2 row-cols-lg-4 mb-5 mx-1">
                 <?php while ($row = mysqli_fetch_assoc($pres)) {
                     if (isset($_SESSION['b_id']) and $_SESSION['b_id'] == $row['b_id']) {
                         $plink = 'update_product.php?p=' . $row['p_id'];
